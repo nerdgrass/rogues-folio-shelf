@@ -1,5 +1,4 @@
-/* Steve jobs' book */
-
+/* Steve jobs' book - legacy turn.js example code */
 @font-face {
   font-family: 'Stempel-Garamond-W01-Roman';
   font-style: normal;
@@ -263,7 +262,7 @@ body, ul, table, form{
 .sj-book .own-size{
 	width:460px;
 	height:582px;
-	background-color:white;
+	background-color:green;
 	overflow:hidden;
 }
 
@@ -371,4 +370,30 @@ body, ul, table, form{
 	background-image:url(../pics/gradient-page-right.jpg);
 	background-position:left top;
 	background-repeat:repeat-y;
+}
+
+
+
+
+
+
+
+
+/* Custom Styles */
+.sj-book .even{
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #ecd6b9), color-stop(1, #B89F75));
+	background-image:-webkit-linear-gradient(left, #ecd6b9 95%, #B89F75 100%);
+	background-image:-moz-linear-gradient(left, #ecd6b9 95%, #B89F75 100%);
+	background-image:-ms-linear-gradient(left, #ecd6b9 95%, #B89F75 100%);
+	background-image:-o-linear-gradient(left, #ecd6b9 95%, #B89F75 100%);
+	background-image:linear-gradient(left, #ecd6b9 95%, #B89F75 100%);
+}
+
+.sj-book .odd{
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #ecd6b9), color-stop(1, #B89F75));
+	background-image:-webkit-linear-gradient(right, #ecd6b9 95%, #B89F75 100%);
+	background-image:-moz-linear-gradient(right, #ecd6b9 95%, #B89F75 100%);
+	background-image:-ms-linear-gradient(right, #ecd6b9 95%, #B89F75 100%);
+	background-image:-o-linear-gradient(right, #ecd6b9 95%, #B89F75 100%);
+	background-image:linear-gradient(right, #ecd6b9 95%, #B89F75 100%);
 }
